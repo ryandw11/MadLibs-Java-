@@ -1,0 +1,20 @@
+System.out.println("What is you name?");
+	name = input.nextLine();
+	System.out.println("Tell me a verb:");
+	verb = input.nextLine();
+	System.out.println("Tell me another verb:");
+	verb2 = input.nextLine();
+	System.out.println("Tell me a noun:");
+	noun = input.nextLine();
+	System.out.println("Tell me another noun:");
+	noun2 = input.nextLine();
+	System.out.println("Tell me an adjective:");
+	adjective = input.nextLine();
+	System.out.println("Tell me a place:");
+	place = input.nextLine();
+	
+	System.out.println("Here is the MadLib:");
+	System.out.println("A person named " + name +" was going to " + place + " to have some ummy food!");
+	System.out.println("Now look at this " + noun + "! Isn't that just cute! So then " + noun2 + " came for a swim!");
+	System.out.println("Now " + name + " likes to " + verb + " and " + verb2 + "!");
+	System.out.println("Now " + name + " is " + adjective + "!");
